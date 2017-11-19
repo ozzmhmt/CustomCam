@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewflipper"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    style="@style/ViewFlipper">
+
+    <!-- The first view -->
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <com.ozzmhmt.customcamera.Adapter.PhotoEditionView1
+                    android:id="@+id/pev1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <GridView
+                    android:id="@+id/framegv"
+                    style="@style/GridView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="320dp"
+                    android:layout_gravity="bottom"
+                    android:background="#e6666666"
+                    android:visibility="gone"></GridView>
+                <ImageButton
+                    android:id="@+id/FrameBtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/frame_btn"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"></ImageButton>
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/shareBtn"
+                    android:src="@drawable/share"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- The second view -->
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <FrameLayout android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+            <com.ozzmhmt.customcamera.Adapter.PhotoEditionView2
+                android:id="@+id/pev2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout android:id="@+id/pendantbar"
+                android:layout_height="40dp"
+                android:layout_width="fill_parent"
+                android:layout_gravity="bottom"
+                android:visibility="gone">
+                <ImageView android:id="@+id/pendantiv"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#99666666"
+                    android:scaleType="fitCenter">
+                </ImageView>
+                <ImageView android:id="@+id/pendantdispiv1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter">
+                </ImageView>
+
+                <ImageView android:id="@+id/pendantdispiv2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter">
+                </ImageView>
+                <ImageButton android:id="@+id/pendantswitchbtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"></ImageButton>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/magicwandbar"
+                android:layout_height="40dp"
+                android:layout_width="fill_parent"
+                android:layout_gravity="bottom"
+                android:visibility="gone">
+                <ImageView android:id="@+id/magicwandiv"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="#99666666"
+                    android:scaleType="fitCenter">
+                </ImageView>
+                <ImageButton android:id="@+id/magicwandswitchbtn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    >
+                </ImageButton>
+
+
+
+            </LinearLayout>
+            <LinearLayout android:id="@+id/decoratell"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="320dp"
+                android:persistentDrawingCache="animation"
+                android:layout_gravity="bottom"
+                android:visibility="gone">
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent">
+                    <Button android:id="@+id/pendantbtn"
+                        android:text="挂件"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content">
+                    </Button>
+                    <Button android:id="@+id/magicwandbtn"
+                        android:text="魔术棒"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                       >
+                    </Button>
+                </LinearLayout>
+                <ViewFlipper android:id="@+id/tabflipper"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent">
+                    <GridView android:id="@+id/pendantgv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#00000000">
+                    </GridView>
+                    <GridView android:id="@+id/magicwandgv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#00000000"
+                        >
+                    </GridView>
+                </ViewFlipper>
+            </LinearLayout>
+            <ImageView android:id="@+id/help2iv"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#99000000"
+                android:visibility="gone">
+            </ImageView>
+        </FrameLayout>
+    </LinearLayout>
+</ViewFlipper>

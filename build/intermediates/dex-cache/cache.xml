@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/CustomCamera/Codelibrary/build/intermediates/bundles/default/libs/qq_r5509_lite.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64d822c459475044e6cee3cb188c72b81aaa4310">
+        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/8/qq_r5509_lite_07b0aec5aff4303e0b2fd615314665346bbad412/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/CustomCamera/Codelibrary/build/intermediates/bundles/default/libs/weibo_3.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac2a9a64d7c97f36398f517045816f9043f07f93">
+        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/8/weibo_3.1.4_7995598ee6c5aca9dbdab91a9dc096d239b7cc1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b9a3f9b200659b825dd7cf1697b668ece5912ab8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fe9e7eb536c8058eed06c4273931a6ff65afaf3">
+        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ccde00d0aa9023749fef4c0b344420e8f4d52192/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/CustomCamera/Codelibrary/build/intermediates/bundles/default/libs/wechat_3.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b0a97f76f6eedd828815dc1b774fef5047b73e81">
+        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/8/wechat_3.1.1_15c2cd3159edb761881bb6e93d30498667f3e926/classes.dex" />
+    </item>
+
+</items>

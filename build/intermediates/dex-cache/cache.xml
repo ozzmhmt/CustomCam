@@ -3,48 +3,66 @@
 
     <item
         is-multidex="true"
-        jar="/Users/mehmet/Downloads/CustomCamera/Codelibrary/build/intermediates/bundles/default/libs/qq_r5509_lite.jar"
+        jar="/Users/mehmet/.android/build-cache/c86d3e958111a4f5112eaaee1da80cc49da6a8a2/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="64d822c459475044e6cee3cb188c72b81aaa4310">
-        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/8/qq_r5509_lite_07b0aec5aff4303e0b2fd615314665346bbad412/classes.dex" />
+        revision="25.0.2"
+        sha1="8e6e30a296f144126c62da545452456950e56b27">
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ebca6b8a9af8ace3b25be6c56f06e07cac485b0/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mehmet/Downloads/CustomCamera/Codelibrary/build/intermediates/bundles/default/libs/weibo_3.1.4.jar"
+        jar="/Users/mehmet/.android/build-cache/7ea725cbb478fd10d71001e1783056528c558f4c/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="ac2a9a64d7c97f36398f517045816f9043f07f93">
-        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/8/weibo_3.1.4_7995598ee6c5aca9dbdab91a9dc096d239b7cc1f/classes.dex" />
+        revision="25.0.2"
+        sha1="722acae466ccefebedf8a6631384e83bf3139f7c">
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c6b4abe363892cf0302f03df9e71eb3bb288052/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/mehmet/.android/build-cache/1bbb9892cb8c57ff4c7e452ed3d97141ecbfac26/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_afbed4cc6ad6ff5391835586d3291949a2ae1900/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/.android/build-cache/b78efae8bd3ccfde163dc7e2adf4e1aaffd84649/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_94149586f08d9b9cd86368dc62f4eb0d9e7432e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="663de52d7eb31f82037691002956fb694c1e15bc">
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0602f8d3a5927bbf5456602952964476cb9cc5e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b9a3f9b200659b825dd7cf1697b668ece5912ab8/classes.dex" />
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_958bf44b34f1380e666ab3751447afa1bd29bef5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/mehmet/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="0fe9e7eb536c8058eed06c4273931a6ff65afaf3">
-        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_ccde00d0aa9023749fef4c0b344420e8f4d52192/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/mehmet/Downloads/CustomCamera/Codelibrary/build/intermediates/bundles/default/libs/wechat_3.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b0a97f76f6eedd828815dc1b774fef5047b73e81">
-        <dex dex="/Users/mehmet/Downloads/CustomCamera/CustomCamera/build/intermediates/transforms/dex/debug/folders/1000/8/wechat_3.1.1_15c2cd3159edb761881bb6e93d30498667f3e926/classes.dex" />
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/mehmet/Downloads/Annca-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_f2550336512540f22a7d76fc9d58a15b3f9c8834/classes.dex" />
     </item>
 
 </items>
